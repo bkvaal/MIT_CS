@@ -1,0 +1,10 @@
+import time
+import random
+
+for i in range (1,102):
+    word = random.sample(('sometimes', 'often', 'never', 'may', 'should', 'did', 'usually', "didn't"),1)
+    print i, ' caroline and  lenna', word[0],  ' plae  on  the   plagrawnd at   bridge '
+    r = random.random()
+##    time.sleep(3*r)
+print ''
+print 'OK finally done'

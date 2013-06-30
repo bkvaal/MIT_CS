@@ -1,0 +1,26 @@
+class a1():
+    def __init__(self):
+        self.y = 21
+
+    def process(self,z):
+        return self.y * z
+    
+    
+class a2(a1):
+    pass
+        
+x = a1()
+
+print x.y
+print x.process(2)
+
+m = a2()
+
+print m
+print m.process(33)
+
+print m.a
+print m.y
+print m.process(99)
+
+    

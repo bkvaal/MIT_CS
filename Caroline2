@@ -1,0 +1,15 @@
+
+
+sum = 0
+nicks = ['ca','ce','t','lil','th']
+full = [('Caroline',6),('Cecilia',3),('Thomas',8),('Lily',6),('Thomas Herald',5)]
+D = zip(nicks,full)
+D.sort()
+print 'Kids ages are:'
+for kid in D:
+    print kid[1][0], kid[1][1]
+    sum += kid[1][1]
+    
+print 'Total ages of all kids is: ', sum
+
+##print D

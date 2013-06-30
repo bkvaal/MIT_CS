@@ -1,0 +1,16 @@
+##Problem set 2
+##Diophantine equation
+##Problem 1
+
+Solutions = []
+
+for a in range(0,9):
+     for b in range(0,5):
+         for c in range(0,3):
+             sum = a*6 + b*9 + c*20
+             if sum > 49:
+                  if sum < 56: 
+                       Solutions.append([sum, a, b, c])
+Solutions.sort()
+for s in Solutions:
+    print s
