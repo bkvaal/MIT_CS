@@ -1,4 +1,4 @@
-# 6.00 Problem Set 4
+## 6.00 Problem Set 4
 #
 # Caesar Cipher Skeleton
 
@@ -26,6 +26,7 @@ def load_words():
     wordlist = line.split()
     print "  ", len(wordlist), "words loaded."
     return wordlist
+
 
 wordlist = load_words()
 
