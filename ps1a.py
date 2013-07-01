@@ -1,3 +1,6 @@
+## test changes for git
+
+
 balance = int(raw_input('Enter the outstanding balance on your credit card: '))
 rate = float(raw_input('Enter your annual interest rate: '))
 min_monthly = float(raw_input('Enter your minimum monthly payment: '))

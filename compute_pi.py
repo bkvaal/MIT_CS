@@ -22,7 +22,7 @@ def main(argv):
 
          
 ##    for i in range(int(sys.argv[1])):
-    for i in range(500):
+    for i in range(501):
         at = (a+b)/2
 
         bt = math.sqrt(a*b)
